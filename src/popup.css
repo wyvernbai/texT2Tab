@@ -1,0 +1,55 @@
+html {
+  overflow-x: hidden;
+    background: #EEEEEE;
+}
+
+body {
+  font-family: Verdana, arial, helvetica, sans-serif;
+}
+
+
+input.text, textarea.mytextarea{
+  background-color : #CCCCCC;
+    border : 1px solid Black;
+    color : #0E1930;
+    font-size : 12px;
+    font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    padding: 2px 4px;
+    border: 1px solid;
+}
+
+
+div{
+}
+
+#padd-header {
+
+}
+
+div#padd-header div.padd-box img{
+    float: left;
+    height: 23px;
+}
+
+div#padd-header div.padd-box h3{
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #4E5148;
+}
+
+p {
+    font-size: 12px;
+    float: left;
+    color: #4E5148;
+}
+
+a {
+    float: right;
+}
+
+button {
+    height: 30px;
+    float: right;
+}

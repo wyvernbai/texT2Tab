@@ -1,0 +1,10 @@
+{
+    "name": "Url parse to Tab",
+    "version": "0.0",
+    "description": "A simple extrence for chrome to parse url in text, and open it in different Tabs",
+    "permissions":  ["management", "tabs"],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "popup":    "popup.html"
+    }
+}
