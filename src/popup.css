@@ -1,5 +1,5 @@
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
     background: #EEEEEE;
 }
 
@@ -9,14 +9,11 @@ body {
 
 
 input.text, textarea.mytextarea{
-  background-color : #CCCCCC;
-    border : 1px solid Black;
+    background-color : #CCCCCC;
     color : #0E1930;
     font-size : 12px;
     font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-weight : bold;
     padding: 2px 4px;
-    border: 1px solid;
 }
 
 
@@ -41,6 +38,7 @@ div#padd-header div.padd-box h3{
 
 p {
     font-size: 12px;
+    font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
     float: left;
     color: #4E5148;
 }
@@ -50,6 +48,6 @@ a {
 }
 
 button {
-    height: 30px;
+    height: 35px;
     float: right;
 }
