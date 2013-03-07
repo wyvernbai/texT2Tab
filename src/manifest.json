@@ -1,10 +1,16 @@
 {
     "name": "Url parse to Tab",
     "version": "0.0",
+    "manifest_version": 2,
     "description": "A simple extrence for chrome to parse url in text, and open it in different Tabs",
     "permissions":  ["management", "tabs"],
+    "content_security_policy": "script-src 'self'; object-src 'self'",
     "browser_action": {
         "default_icon": "icon.png",
-        "popup":    "popup.html"
-    }
+        "default_popup":    "popup.html"
+    },
+    "content_scripts":[{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["popup.js","jquery.min.js"]
+  	}]
 }
